@@ -1,0 +1,13 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "netflixproject-d1fa1",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
